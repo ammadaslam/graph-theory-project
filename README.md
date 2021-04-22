@@ -1,4 +1,5 @@
-# study-graph-theory
+# graph-theory-project
+- **Student ID G00365389**
 
 # Table of contents
 1. [Readme About Directory Structure](#dir-structure)
@@ -22,7 +23,7 @@ Another directory includes a regular expression algorithm that reads the file us
     * Language
     * Thomas_Construction
     * Thompson-hand-sketch
-  * Exercise
+  * Learning Outcomes Exersices
     * **#.00**
     * **#.01**
     * **#.02**
