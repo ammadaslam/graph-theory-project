@@ -24,9 +24,7 @@ Another directory includes a regular expression algorithm that reads the file us
     * Thomas_Construction
     * Thompson-hand-sketch
   * Learning Outcomes Exersices
-    * **#.00**
-    * **#.01**
-    * **#.02**
-    * **#.03**
-    * **#.04**
-    * **#.05**
+    * **#.00** Using lab code (name of code), Graph Theory concept solves the real world problem. 
+    * **#.01** Examined the shunting-yard model and explained the concept in table shape and arrows showed how the elements are saved in stack and post memory.
+    * **#.02** Explained how the Thomson algorithm works, using concatenation regular expression. 
+
