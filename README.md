@@ -72,21 +72,27 @@ Another directory includes a regular expression algorithm that reads the file us
             * Hand-Sketch Thomson NFA .[Union a|b](https://i.imgur.com/mEshxJg.png)
             * Searched Union set of string using computational algorithms. [code](https://github.com/ammadaslam/graph-theory-project/tree/main/workspace/learning_outcome_Exercises/03)
 
-   * **#.04** Explained how the Thomson algorithm works, using Kleene Start as regular expression.
+    * **#.04** Explained how the Thomson algorithm works, using Kleene Start as regular expression.
         - Lesson Learnt:
             * Formulate and model regular expression Kleene Start using graph theory. 
             * Hand-Sketch. NFA [Kleene Start a*](https://i.imgur.com/4nNNGNB.png)
             * Hand-Sketch, [Kleene Start Transitions](https://i.imgur.com/ZYPYLFE.png)
             * Searched Kleene Start set of string using computational algorithms. [code](https://github.com/ammadaslam/graph-theory-project/tree/main/workspace/learning_outcome_Exercises/04)
 
+    * **#.05** Explained how the Thomson algorithm works, using Kleene Start as regular expression.
+      - Reads the file line by line and outputs result from the file that matched the regular expression.
 
-Describe the mathematical properties of graphs.
-  - Formulate and model problems using graph theory.
-  - Solve computational problems using graph theory.
-  - Investigate graph theoretical concepts using a computer.
 
 #### Regular Expression Search (Algorithm) <a name="regexp-algorithm"></a>
 - regular-expression-algorithm
+
+
+
+
+
+
+
+
 
 
 
@@ -111,6 +117,13 @@ Describe the mathematical properties of graphs.
 
 
 ## Algorithms Explanation <a name="explain-algorithm"></a>
+
+
+
+
+
+
+
 
 
 
