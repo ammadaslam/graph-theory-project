@@ -72,7 +72,7 @@ Another directory includes a regular expression algorithm that reads the file us
             * Hand-Sketch Thomson NFA .[Union a|b](https://i.imgur.com/mEshxJg.png)
             * Searched Union set of string using computational algorithms. [code](https://github.com/ammadaslam/graph-theory-project/tree/main/workspace/learning_outcome_Exercises/03)
 
-  * **#.04** Explained how the Thomson algorithm works, using Kleene Start as regular expression.
+   * **#.04** Explained how the Thomson algorithm works, using Kleene Start as regular expression.
         - Lesson Learnt:
             * Formulate and model regular expression Kleene Start using graph theory. 
             * Hand-Sketch. NFA [Kleene Start a*](https://i.imgur.com/4nNNGNB.png)
