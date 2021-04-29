@@ -11,7 +11,7 @@
   - Solve computational problems using graph theory.
   - Investigate graph theoretical concepts using a computer.
 
-
+# [Project Plan](https://i.imgur.com/JR9igmP.png)
 
 
 # Table of contents
