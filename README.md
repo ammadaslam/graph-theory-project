@@ -176,6 +176,87 @@ references:
 
 - How do regular expressions differ across implementations?
   * **Answer**:
+
+The "regular expressions" in the more scientific sense that can match regular languages
+and on the other hand language that can match significantly more complex programming languages Perl, Python, java all most any language. Most of them rely on a particular
+style called Perl Compatible Regular Expression (PCRE).
+
+- Academic Regular Expression
+  * First of all we discussed general academic regular expressions are quite limited but their
+  efficient implementation is more interesting as compared to power full regular expression based on PCRE. 
+
+  Regular expressions are matching certain set of strings from alphabets fashion. 
+  In general, a set of strings is known as a language, and in particular the set that can be defined by the use of regular expressions is called regular languages.
+
+  Sigma (Σ) is a finite set called the alphabet. There is always the null expression  ∅  which doesn't match anything at all and  ϵ  which only match the empty string. An example of a sets,  ∅≡{}  and  ϵ≡{⟨⟩}.
+
+  We can also combine the above expressions to form a more complex. Such as concatenation: given regular expressions  a  and  b ,  a.b  matches  a  followed by  b. 
+  So if  a≡{⟨ab⟩,⟨cd⟩}  and  b≡{⟨ef⟩}  then  a.b≡{⟨abef⟩,⟨cdef⟩} .
+
+  There is an operation called alternation (union), Given  a  and  b ,  a|b  matches if either  a  or  b  match.  a|b≡{⟨ab⟩,⟨cd⟩}∪{⟨ef⟩} = {⟨ab⟩,⟨cd⟩,⟨ef⟩} .
+
+  Another operation is the Kleene star which is repetition. Given an expression  a ,  a∗  matches the empty string ( ϵ ),  a ,  aa  and so on. This is also where the  Σ∗  notation comes from for the set of strings. Given the  a  above,  a∗≡{⟨⟩,⟨ab⟩,⟨cd⟩,⟨abab⟩,⟨abcd⟩,⟨cdcd⟩,…}.
+
+  Also have some additional operation like  a+  for matching at least one or more instance of an expression. This operation also written as  aa∗ .
+  - Design Nondeterministic Finite Automata(NFA) and Deterministic Finite Automata(DFA):
+    * Effectively design regular expressions into a finite state automata. Every DFA is an NFA but not the vise versa. Both the NFA and the DFA have 5 tuples (Q,Σ,Transition function:,q0,F).
+      
+      Q = is a finite set of states,
+      Σ = is a finite set called the alphabet,
+      Transition function: = is the transition function (Q × Σ -> Q),
+      q0 =  is the start state (∈ Q), and
+      F = is the set of accept states (⊆ Q).
+    This only difference DFA always have exactly one state to transition to when in
+  any given state and reading any given symbol. On the other hand NFA finite automata can have any number of arrows for each state and symbol.
+
+  The empty string ∈ = {⟨⟩} is also used to label arrows that are followed without reading a character from the input, while also remaining in the original state.
+
+  Non-determinism can simplify automata but it can be shown that NFAs and DFAs recognise the same set of languages.
+
+  - Implementation (NFA/DFA)
+    * A NFA is made up of a bunch of states SS and the transitions between them F:Q×Σ→P(Q).
+    At given current state there could be multiple next states. The next state may be chosen at random or all the next states may be chosen in parallel. So it make matching operation possible and fast implementation.
+
+    * In DFA, given the current state we know what the next state will be. It has no choice only one unique next state. Hence it simple and easy to design.
+
+- Module Based Regexps
+  * Module-based regexps provides regular expression matching operations, such as those found in Pearl. The regexps modules in most languages are actually more powerful.
+  Both patterns and strings to be searched can be Unicode strings (str) as well as 8-bit strings (bytes). 
+  The important point to make clear here is that these module based regex cannot be implemented as NFA / DFA methods.
+
+
+---
+references:
+- title: Python Standard Library
+  Topic: re-Regular expression operations
+  type:  Documentation
+  Url:   https://docs.python.org/3/library/re.html
+  version:
+    English: 3.9.4
+
+references:
+- title: Regular Expressions.info
+  Topic: re-Regular expression operations
+  type:  website
+  Url:   http://www.regular-expressions.info/refunicode.html
+  date:
+    last update: Nov 2019
+
+references:
+- title: Implementing a Regular Expression Engine
+  type:  website/Article
+  Url:   https://deniskyashif.com/2019/02/17/implementing-a-regular-expression-engine/
+  date:
+    published: Feb 2019
+
+references:
+- title: How are regular expressions implemented?
+  type:  website/Blog
+  Url:   https://www.quora.com/How-are-regular-expressions-implemented
+  date:
+    published : 4 years ago, by  Daniele Paolo Scarpazza, PhD in Computer Engineering. and Valeriy Ivanov, M.S. Wireless Telecommunications & Software Engineering, MTUCI (2010)
+
+---
   
 
 
