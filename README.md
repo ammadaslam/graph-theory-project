@@ -82,6 +82,9 @@ Another directory includes a regular expression algorithm that reads the file us
     * **#.05** Explained how the Thomson algorithm works, using Kleene Start as regular expression.
       - Reads the file line by line and outputs result from the file that matched the regular expression.
 
+    * **#.06**  Added Python command line parsing (argparse)[https://docs.python.org/3/library/argparse.html]
+         
+
 
 #### Regular Expression Search (Algorithm) <a name="regexp-algorithm"></a>
 - regular-expression-algorithm
