@@ -57,9 +57,8 @@ Another directory includes a regular expression algorithm that reads the file us
     * **#.01** Examined the shunting-yard model and explained the concept in table shape and arrows showed how the elements are saved in stack and post memory.
         - Lesson Learnt:
             * Shunting-yard Model.[code](https://github.com/ammadaslam/graph-theory-project/tree/main/workspace/learning_outcome_Exercises/01)
-            * Shunting-yard Algorithm. 
-              # [Explanation](https://i.imgur.com/FOQRLoP.png)
-
+            * Shunting-yard Algorithm.[Explanation](https://i.imgur.com/FOQRLoP.png)
+                             
     * **#.02** Explained how the Thomson algorithm works, using concatenation as regular expression. 
         - Lesson Learnt:
             * Formulate and model regular expression concatenation using graph theory. 
