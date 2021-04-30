@@ -279,3 +279,104 @@ references:
 
 - Can all formal languages be encoded as regular expressions?
   * **Answer**:
+
+  Before answering this question, it is important to understand the difference between formal language, regular language and regular expression. So the answer is divided into three parts and in the third part it will give a clear understanding and correct answer to this question.
+
+  -First define the formal language:
+    - [Basic Definition](https://introcs.cs.princeton.edu/java/51language/)
+      * A symbol is the basic building block, typically a character or a digit.
+      * An alphabet is a finite set of symbols.
+      * A string is a finite sequence of alphabet symbols.
+      * A formal language is a set of strings (possibly infinite), all over the same alphabet.
+
+  Any alphabet can be used when working with formal languages. Hence the Roman alphabet used for text processing and the decimal numbers used for number processing. and so forth.
+
+  -Second define the regular language:
+    This is an important class of formal languages called regular languages. For which we can solve specified problems.
+    The union (U), concatenation(.), and closure (*) operations on sets, along with parentheses, to specify a regular language
+
+    - The union R1 | R2 of two formal languages R1 and R2 is the set of strings that are in either R1 or R2 (or both). 
+      * For example,
+          R1 = { a, ba }
+          R2 = { ab, ba, b }
+          (R1 U R2) = { a, ba } | { ab, ba, b } = { a, ab, ba, b }
+
+    - The concatenation R1R2 of two formal languages R1 and R2 is the set of all strings that can be created by appending a string from R to a string from R2. Note, duplicate results are not allowed.
+      * For example,
+          R1 = { a, ab }
+          R2 = { a, ba, bab }
+          (R1R2) = { a, ab } { a, ba, bab } = { aa, aba, abab, abba, abbab }
+
+    - The closure R* of a formal language R is the concatenation of zero or more strings from R.
+      * R* = {ε,R,RR,RRR,RRRR,...}      
+
+  -Third define the regular expression:
+    For every regular expression, there is a corresponding regular set of language
+
+                        **Regular expression**  	**Regular Set**
+                            ∅                       {}
+                            a for a ∈ Σ             {a}
+                              ∈	                    {∈}
+                            (R1 U R2)             L(R1) U L(R2)
+                            (R1R2)                L(R1)L(R2)
+                            (R*)                  L(R*)
+                            R+                     RR*
+
+    RE is a string of symbols that specifies a formal language. RE is either an alphabet symbol or composed from the following operations (where R1 and R2 are REs):
+    - Union:
+      * R1 | R2, specifying the union of the sets R1 and R2,
+    - Concatenation:
+      * R1R2, specifying the concatenation of the sets R1 and R2,
+    - Closure:
+      * R*, specifying the closure of the set R,
+    - Parentheses:
+      (R), specifying the same set as R.
+
+
+  Conclusion: A formal language is encoded if and only if it can be specified by an RE.
+  **Therefore, not all formal languages are encoded in regular expressions.**
+
+
+  ---
+  references:
+  - title: Formal Language
+    type:  website
+    Url:   https://introcs.cs.princeton.edu/java/51language/
+    date:
+      published: August 2016
+
+  references:
+  - title: Formal Language
+    type:  website
+    Url:   https://archive.csfieldguide.org.nz/2.7.1/en/chapters/formal-languages.html
+    published:
+      CS Education Research Group, University of Canterbury, New Zealand
+      
+  references:
+  - title: Regular Expressions and Formal Languages
+    type:  Article
+    Url:   https://dzone.com/articles/back-basics-regular
+    date:
+      posted: March 2014
+
+  references:
+  - title: What is the Relationship Between Programming Languages, Regular Expressions and   Formal Languages
+    type:  blog/stackoverflow
+    Url:   https://cs.stackexchange.com/questions/30639/what-is-the-relationship-between-programming-languages-regular-expressions-and
+
+
+  references:
+  - title: Regular expression
+    type:  wikipedia
+    Url:   https://en.wikipedia.org/wiki/Regular_expression
+
+  references:
+  - Recommended Resource:
+      * Url:  https://realpython.com/regex-python/
+      * Url:  https://realpython.com/python3-object-oriented-programming/
+      * Url:  http://norvig.com/21-days.html
+      * Url:  https://stackoverflow.blog/2020/05/27/2020-stack-overflow-developer-survey-results/
+      * Url:  https://github.com/ianmcloughlin/fib-languages
+      * Url:  https://hckrnews.com/
+      * Url:  https://realpython.com/
+  ---
