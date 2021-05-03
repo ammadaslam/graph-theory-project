@@ -14,6 +14,7 @@
 # [Project Plan](https://i.imgur.com/JR9igmP.png)
 
 
+
 # Table of contents
 1. [Introduction](#introduction)
     1. [Readme About Directory Structure](#dir-structure)
@@ -52,31 +53,31 @@ Another directory includes a regular expression algorithm that reads the file us
   * Learning_Outcomes
     * **#.00** Using lab code (name of code), Graph Theory concept solves the real world problem. 
         - Lesson Learnt:
-            * Solved real world problem using DFA.[Hand-Sketh, Transistions](https://i.imgur.com/r72EpOH.jpg)
+            * Solved real world problem using DFA.[Hand-Sketh, Transistions](https://i.imgur.com/UbtGZH3.jpg)
             
     * **#.01** Examined the shunting-yard model and explained the concept in table shape and arrows showed how the elements are saved in stack and post memory.
         - Lesson Learnt:
             * Shunting-yard Model.[code](https://github.com/ammadaslam/graph-theory-project/tree/main/workspace/learning_outcome_Exercises/01)
-            * Shunting-yard Algorithm.[Explanation](https://i.imgur.com/FOQRLoP.png)
+            * Shunting-yard Algorithm.[Explanation](https://i.imgur.com/TWdVdRq.png)
                              
     * **#.02** Explained how the Thomson algorithm works, using concatenation as regular expression. 
         - Lesson Learnt:
             * Formulate and model regular expression concatenation using graph theory. 
-            * Hand-Sketch Thomson NFA.[Concatenation a.b ](https://i.imgur.com/UaY1zln.png)
-            * Hand-Sketch Thomson NFA, [Transitions](https://i.imgur.com/rFkOKsW.png)
+            * Hand-Sketch Thomson NFA.[Concatenation a.b ](https://i.imgur.com/eMq28X1.png)
+            * Hand-Sketch Thomson NFA, [Transitions](https://i.imgur.com/FJ1hI6y.png)
             * Searched concatenation set of string using computational algorithms. [code](https://github.com/ammadaslam/graph-theory-project/tree/main/workspace/learning_outcome_Exercises/02)
 
     * **#.03** Explained how the Thomson algorithm works, using Union as regular expression.
         - Lesson Learnt:
             * Formulate and model regular expression Union using graph theory. 
-            * Hand-Sketch Thomson NFA .[Union a|b](https://i.imgur.com/mEshxJg.png)
+            * Hand-Sketch Thomson NFA .[Union a|b](https://i.imgur.com/C0VeuvV.png)
             * Searched Union set of string using computational algorithms. [code](https://github.com/ammadaslam/graph-theory-project/tree/main/workspace/learning_outcome_Exercises/03)
 
     * **#.04** Explained how the Thomson algorithm works, using Kleene Start as regular expression.
         - Lesson Learnt:
             * Formulate and model regular expression Kleene Start using graph theory. 
-            * Hand-Sketch. NFA [Kleene Start a*](https://i.imgur.com/4nNNGNB.png)
-            * Hand-Sketch, [Kleene Start Transitions](https://i.imgur.com/ZYPYLFE.png)
+            * Hand-Sketch. NFA [Kleene Start a*](https://i.imgur.com/krp0y6N.png)
+            * Hand-Sketch, [Kleene Start Transitions](https://i.imgur.com/FIhskn4.png)
             * Searched Kleene Start set of string using computational algorithms. [code](https://github.com/ammadaslam/graph-theory-project/tree/main/workspace/learning_outcome_Exercises/04)
 
     * **#.05** Explained how the Thomson algorithm works, using Kleene Start as regular expression.
