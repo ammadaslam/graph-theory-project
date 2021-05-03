@@ -4,7 +4,6 @@
 # graph-theory-project
 - **Student ID G00365389**
 
-
 # [Project Plan](https://i.imgur.com/JR9igmP.png)
 
 **Graph Theory Learning outcomes**
@@ -93,6 +92,7 @@
 
 - How to run test script?
   * python3 test.py [Screen-Shot](https://i.imgur.com/OkaEOZy.png)
+  
   
 - How to run main program? 
   * python3 run.py -h
