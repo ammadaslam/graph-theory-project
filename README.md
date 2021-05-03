@@ -83,7 +83,11 @@ Another directory includes a regular expression algorithm that reads the file us
       - Reads the file line by line and outputs result from the file that matched the regular expression.
 
     * **#.06**  Added Python command line parsing (argparse)[https://docs.python.org/3/library/argparse.html]
-         
+    
+    * **#.07**  Python Unit Testing.
+      -Added 9 test cases 
+      -Enter in the command line: python test.py
+    
 
 
 #### Regular Expression Search (Algorithm) <a name="regexp-algorithm"></a>
@@ -379,4 +383,6 @@ references:
       * Url:  https://github.com/ianmcloughlin/fib-languages
       * Url:  https://hckrnews.com/
       * Url:  https://realpython.com/
+      * Url:  https://docs.python.org/3/library/unittest.html
+      
   ---

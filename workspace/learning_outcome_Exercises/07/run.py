@@ -12,8 +12,9 @@ if __name__ == "__main__":
     print("Your regular expression:", args.regex)
     print("Your test file name:    ", args.file+".txt")
 
-    reg.input_regex(args.regex)
     reg.input_file_name(args.file)
+    reg.input_regex(args.regex)
+    
     
 
 
