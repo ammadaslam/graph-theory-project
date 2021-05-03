@@ -1,0 +1,4 @@
+ab abc abcc aa abba aba
+ 11 100001 11001  a aa aaaa
+ aaa baaa  1 11 111 0111
+  0 00 000 1000

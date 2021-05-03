@@ -5,53 +5,33 @@
 - **Student ID G00365389**
 
 
-**Learning outcomes**
+# [Project Plan](https://i.imgur.com/JR9igmP.png)
+
+**Graph Theory Learning outcomes**
   - Describe the mathematical properties of graphs.
   - Formulate and model problems using graph theory.
   - Solve computational problems using graph theory.
   - Investigate graph theoretical concepts using a computer.
 
-# [Project Plan](https://i.imgur.com/JR9igmP.png)
-
 
 
 # Table of contents
-1. [Introduction](#introduction)
-    1. [Readme About Directory Structure](#dir-structure)
-        1. [Workspace](#workspace)
-        2. [Regular Expression Search (Algorithm)](#regexp-algorithm)
-    
+1. [Algorithms Explanation](#explain-algorithm)   
 2. [How to Run & Test Program?](#how2run-program)
-3. [Algorithms Explanation](#explain-algorithm)  
 4. [Question & Answers](#qa)
 
 
-
-
-## Introduction <a name="introduction"></a>
-
-  
-
-
-
-### Readme about directory structure <a name="dir-structure"></a>
-The workspace directory includes labs, notes, learning outcomes based exercises.
-Another directory includes a regular expression algorithm that reads the file using command line arguments and reads the file by line and outputs the lines of the file matching the regular expression.
-#### Workspace <a name="workspace"></a>
-- Workspace
-  * Labs
+#### Algorithms Explanation <a name="explain-algorithm"></a>
+- Algorithms
+  * The following algorithms are described in detail in the section.
     * **Collatz**       Algorithm
     * **Shunting**      Algorithm
     * **Shuntingre**    Algorithm   //Shunting Regular Expression
     * **Thompson**      Algorithm
-  * Notes
-    * Finite_Automata
-    * Language
-    * Thomas_Construction
-    * Thompson-hand-sketch
+  
+  * All learning outcomes are based on lab code and hand-sketch exercises.
 
-  * Learning_Outcomes
-    * **#.00** Using lab code (name of code), Graph Theory concept solves the real world problem. 
+    * **#.00** Using lab code (even-p.py) and demonstrating how the concept of graph theory solves real-world problems.
         - Lesson Learnt:
             * Solved real world problem using DFA.[Hand-Sketh, Transistions](https://i.imgur.com/UbtGZH3.jpg)
             
@@ -80,8 +60,8 @@ Another directory includes a regular expression algorithm that reads the file us
             * Hand-Sketch, [Kleene Start Transitions](https://i.imgur.com/FIhskn4.png)
             * Searched Kleene Start set of string using computational algorithms. [code](https://github.com/ammadaslam/graph-theory-project/tree/main/workspace/learning_outcome_Exercises/04)
 
-    * **#.05** Explained how the Thomson algorithm works, using Kleene Start as regular expression.
-      - Reads the file line by line and outputs result from the file that matched the regular expression.
+    * **#.05** Reads the file line by line and outputs result from the file that matched the regular expression.
+  
 
     * **#.06**  Added Python command line parsing (argparse)[https://docs.python.org/3/library/argparse.html]
     
@@ -91,54 +71,32 @@ Another directory includes a regular expression algorithm that reads the file us
     
 
 
-#### Regular Expression Search (Algorithm) <a name="regexp-algorithm"></a>
-- regular-expression-algorithm
-
-
-
-
-
-
-
-
-
-
-
-
 ## How to run & test program? <a name="how2run-program"></a>
 
+- Prerequisites:
+  * (Download Python3)[https://www.python.org/downloads/]
+  * (Clone Git Project)[https://github.com/ammadaslam/graph-theory-project]
 
+- Project Directory Structure
+  * Root directory 
+    * graph-theory-project
+  * Sub directories
+    * run.py                 - Main Program 
+    * test.py                - The test script includes 9 tests. 
+    * file.txt               - Text file contain specific regular language.
+    * file2.txt              - Text file 2 contain regular language in paragraph.
+    * reg.py                 - This lab code has been slightly modified to read text files
+    * shuntingre.py          - This lab code is used as it is.
+    * thompson.py            - Modified (+) operator only and it is not complete yet.
+    * Algorithms-Explanation - All algorithms are explained in this directory [00-04]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Algorithms Explanation <a name="explain-algorithm"></a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- How to run test script?
+  * python test.py 
+  
+- How to run main program? 
+  * python run.py -h
+  * python run.py a.b.c* file
+  * python run.py (a.b|b*) file2
 
 
 ## Question & Answers <a name="qa"></a>
