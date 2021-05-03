@@ -115,6 +115,30 @@ def re_to_nfa(postfix):
             nfa = NFA(start, end)
             # Push to the stack.
             stack.append(nfa)
+        elif c == '+':
+            #############This function is under development.###################
+            # Pop one NFA off stack.
+            nfa1 = stack[-1]
+            stack = stack[:-1]
+            
+            # Create new start and end states.
+            start = State(None, [], False)
+            end = State(None, [], False)
+            
+            # Make new start state point at old start states.
+            start.arrows.append(nfa1.start)
+            
+            # Make old end state point to old start state.
+            nfa1.end.arrows.append(nfa1.start)
+            
+            # Make old end state accept.
+            nfa1.end.accept = True
+            
+            # Make a new NFA.
+            nfa = NFA(start, end)
+            # Push to the stack.
+            stack.append(nfa)
+
         else:
             # Create an NFA for the non-special character c.
             # Create the end state.
@@ -133,3 +157,5 @@ def re_to_nfa(postfix):
         return None
     else:
         return stack[0]
+
+
