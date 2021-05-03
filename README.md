@@ -75,7 +75,7 @@
 ## How to run & test program? <a name="how2run-program"></a>
 
 - Prerequisites:
-  * (Download Python3)[https://www.python.org/downloads/]
+  * (Download Latest version Python3)[https://www.python.org/downloads/]
   * (Clone Git Project)[https://github.com/ammadaslam/graph-theory-project]
 
 - Project Directory Structure
@@ -92,12 +92,12 @@
     * Algorithms-Explanation - All algorithms are explained in this directory [00-04]
 
 - How to run test script?
-  * python test.py 
+  * python3 test.py [Screen-Shot](https://i.imgur.com/OkaEOZy.png)
   
 - How to run main program? 
-  * python run.py -h
-  * python run.py a.b.c* file
-  * python run.py (a.b|b*) file2
+  * python3 run.py -h
+  * python3 run.py a.b.c* file [Screen-Shot](https://i.imgur.com/vj8yJyE.png)
+  * python3 run.py (a.b|b*) file2
 
 
 ## Question & Answers <a name="qa"></a>
