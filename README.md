@@ -45,6 +45,7 @@
             * Formulate and model regular expression concatenation using graph theory. 
             * Hand-Sketch Thomson NFA.[Concatenation a.b ](https://i.imgur.com/eMq28X1.png)
             * Hand-Sketch Thomson NFA, [Transitions](https://i.imgur.com/FJ1hI6y.png)
+            * Hand-Sketch Last In and First Out from Stack,[LIFO](https://i.imgur.com/t9QYZ4I.png)
             * Searched concatenation set of string using computational algorithms. [code](https://github.com/ammadaslam/graph-theory-project/tree/main/workspace/learning_outcome_Exercises/02)
 
     * **#.03** Explained how the Thomson algorithm works, using Union as regular expression.
@@ -87,7 +88,7 @@
     * file2.txt              - Text file 2 contain regular language in paragraph.
     * reg.py                 - This lab code has been slightly modified to read text files
     * shuntingre.py          - This lab code is used as it is.
-    * thompson.py            - Modified (+) operator only and it is not complete yet.
+    * thompson.py            - Modified (+) operator only and it is not complete yet. [Hand-Sketch](https://i.imgur.com/0ynEY1i.png)
     * Algorithms-Explanation - All algorithms are explained in this directory [00-04]
 
 - How to run test script?
