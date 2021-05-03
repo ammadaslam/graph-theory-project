@@ -4,7 +4,7 @@ import thompson
 
 
 textFile = []
-match_result = False
+
 
 def input_file_name(fileName):
     # opening the text file
@@ -16,6 +16,8 @@ def input_file_name(fileName):
 
 
 def input_regex(regex):
+    global match_result
+    match_result = False
     tests = [ [regex,   textFile]]
 
     
